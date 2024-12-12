@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Fondo gris claro */
+  color: #343a40; /* Texto oscuro */
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #007bff; /* Azul principal */
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+/* Contenedor Principal */
+.principal {
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Lista de Personas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  background: #ffffff;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #f1f3f5;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  font-size: 1rem;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
+/* Botones específicos */
+button:first-of-type {
+  background: #007bff;
+  color: white;
+}
+
+button:last-of-type {
+  background: #dc3545;
+  color: white;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1rem;
+ 
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button[type="submit"] {
+  background: #28a745;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+#containerButtons{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+
